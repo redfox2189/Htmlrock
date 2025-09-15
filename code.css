@@ -31,3 +31,15 @@ a{
     display: inline-block;
     margin: 25px;
 }
+a:hover{
+     background-color: grey;
+    color: black;
+    border: 3px solid black;
+    padding: 11px;
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+    margin: 25px;
+    transition: 0.3s;
+    cursor: pointer;
+}
