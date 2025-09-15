@@ -22,12 +22,7 @@ p{
     margin: 25px;
 }
 a{
-  border-style: none;
+  border-style: solid;
   border-width: 5px;
-    border-color: white;
-    text-decoration: none;
-        color: white;
-        font-size: 20px;
-        background-color: black;
-
+  border-color: white;
 }
