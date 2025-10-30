@@ -101,14 +101,14 @@ a:active{
 @keyframes treeland{
 0%{
     transform: rotate(360deg);
-    transform: translateX(200px) translateY(-800px);
+    transform: translateX(200px) translateY(-1000px);
 }
 50%{
     transform: rotate(180deg);
-    transform: translateX(670px) translateY(-470px);
+    transform: translateX(670px) translateY(-600px);
 }
 100%{
-    transform: translateX(-400px) translateY(-400px)
+    transform: translateX(-400px) translateY(-580px)
 }
 }
 
