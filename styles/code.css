@@ -43,23 +43,18 @@ a:hover{
     display: inline-block;
     margin: 25px;
     transition: 0.5s;
-    scale: 1.2;
+    scale: 1.1;
     cursor: pointer;
     
 }
 a:active{
     background-color: rgb(51, 51, 51);
-    scale: 1.1;
+    scale: 1.05;
 }
-
-.rock{
-    width:10%;
-    height:auto;
-    text-align: center;
-    display:flex;
-    animation-delay: 3s;
-    animation: 3s spin ease-in infinite;
-    }
+.rock img {
+    width: 10%;
+    height: 10%;
+}
     .rockcarland{
     width:1px;
     height:auto;
@@ -78,24 +73,15 @@ a:active{
     animation: 3s treeland ease-in 1;
     animation-fill-mode: forwards;
     }
-@keyframes spin{
-0%{
-    transform: rotate(180deg);
-    transform: translateX(700%) translateY(70%);
-}
-100%{
-    transform: rotate(180deg);
-    transform: translateX(800%) translateY(10px);
-}
-}
+
 @keyframes carland{
 0%{
-    transform: rotate(360deg);
-    transform: translateX(200px) translateY(-800px);
+    transform: rotate(0deg);
+    transform: translateX(-100px) translateY(-1500px);
 }
 100%{
-    transform: rotate(180deg);
-    transform: translateX(540px) translateY(-470px);
+    transform: rotate(360deg);
+    transform: translateX(540px) translateY(-770px);
 }
 }
 @keyframes treeland{
